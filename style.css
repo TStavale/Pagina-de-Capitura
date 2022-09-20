@@ -28,13 +28,36 @@ section {
     padding: 20px;
     background-image: url('./Imagens/principal.jpg');
     height: 450px;   
+    background-size: cover;
 }
 
 .form-container {
-    background-color: aliceblue;
+    background-color: #ffffffb4;
     float: left;
-    max-width: 300px;
+    max-width: 230px;
     padding: 20px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.text-fomr-container {
+    margin-bottom: 15px;
+}
+
+input[type="submit"]{
+    color: white;
+    background-color: rgb(44, 199, 199);
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    box-sizing: border-box; /* para agrupar as celulas da coluna e ficar uniforme */
+    padding: 10px;
+    border: none; /* retirar a linha de borda das celulas da coluna */
+    margin-bottom: 10px;
 }
 
 .container-2{
@@ -48,6 +71,12 @@ section {
     text-align: center;
     font-size: 26px;
     padding-bottom: 25px;
+}
+
+hr {
+    width: 30%;
+    text-align: center;
+    color: rgb(83, 80, 80);
 }
 
 .palestrante-1 {
