@@ -69,32 +69,47 @@ input, select {
 .text-container-2 {
     color: white;
     text-align: center;
+    text-decoration: underline;
     font-size: 26px;
     padding-bottom: 25px;
 }
 
-hr {
-    width: 30%;
-    text-align: center;
-    color: rgb(83, 80, 80);
+.palest-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
 }
 
-.palestrante-1 {
+.text-palest-1 {
     color: white;
-    text-align: left;
+    max-width: 60%;
+    padding: 10px;
     
-
 }
 
-.img-palestrante-1 {
+.img-palest-1 {
+    height: 200px;
     width: 160px;
+    
 }
 
-.palestrante-2 {
+.palest-2 {  
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+
+.text-palest-2 {
     color: white;
+    max-width: 60%;
+    padding: 10px;
 }
 
-.img-palestrante-2 {
+.img-palest-2 {
+    height: 300px;
     width: 160px;
 }
 
