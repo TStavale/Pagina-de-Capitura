@@ -85,12 +85,14 @@ input, select {
     color: white;
     max-width: 60%;
     padding: 10px;
+    margin-right: 15px;
     
 }
 
 .img-palest-1 {
     height: 200px;
     width: 160px;
+    border-radius: 20px;
     
 }
 
@@ -106,6 +108,7 @@ input, select {
     color: white;
     max-width: 60%;
     padding: 10px;
+    margin-left: 15px;
 }
 
 .img-palest-2 {
@@ -113,8 +116,66 @@ input, select {
     width: 160px;
 }
 
+.text-palest-2 p {
+    margin-bottom: 20px;
+}
+
+.text-palest-1 p {
+    margin-bottom: 20px;
+}
+
 footer {
     color: white;
     text-align: center;
     padding: 5px;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 615px) {
+    .container {
+        width: 90%;
+    }
+
+    .palest-1 {
+        display: inline-flex;
+        text-align: center;
+        
+    }
+
+    .palest-2 {
+        display: inline-flex;  
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .container {
+        width: 90%;
+    }
+
+    .palest-1 {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .text-palest-1 {
+        margin: auto;
+    }
+
+    .palest-2 {
+        display: inline-block;
+        vertical-align: top; 
+        
+    }
+
+    .text-palest-2 {
+        margin: auto;
+    }
+
 }
