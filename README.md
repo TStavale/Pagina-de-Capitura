@@ -6,7 +6,7 @@ Recriar uma página de captura responsiva com design limpo, utilizando HTML e CS
 
 <h2> RESULTADO</h2>
 
-<img src="./imagens/pág._de_captura.jpg">
+<img src="./Imagens/pág._de_captura.jpg">
 
 <h2>ACESSE</h2>
 
