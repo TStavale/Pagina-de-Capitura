@@ -89,7 +89,7 @@ input, select {
     
 }
 
-.img-palest-1 {
+.img-palest-1, .img-palest-2 {
     height: 200px;
     width: 160px;
     border-radius: 20px;
@@ -109,11 +109,6 @@ input, select {
     max-width: 60%;
     padding: 10px;
     margin-left: 15px;
-}
-
-.img-palest-2 {
-    height: 300px;
-    width: 160px;
 }
 
 .text-palest-2 p {
@@ -154,7 +149,7 @@ footer {
 
 }
 
-@media (max-width: 375px) {
+@media (max-width: 500px) {
     .container {
         width: 90%;
     }
