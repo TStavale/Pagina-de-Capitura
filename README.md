@@ -4,6 +4,10 @@
 
 Recriar uma página de captura responsiva com design limpo, utilizando HTML e CSS. O exemplo em questão, busca capturar Nome, e-mail e Estado, através de formulário. 
 
+<h2> RESULTADO</h2>
+
+<img src="./imagens/pág._de_captura.jpg">
+
 <h2>ACESSE</h2>
 
 https://tstavale.github.io/Pagina-de-Capitura/
